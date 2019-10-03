@@ -1,0 +1,222 @@
+[2019-09-25 11:28:50.881] [exthost] [info] extension host started
+[2019-09-25 11:28:50.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:28:50.907] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-25 11:28:51.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:28:51.012] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-25 11:28:51.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:28:51.224] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-25 11:28:51.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:28:51.476] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-25 11:28:51.803] [exthost] [info] eager extensions activated
+[2019-09-25 11:29:05.825] [exthost] [info] extension host started
+[2019-09-25 11:29:05.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:29:05.829] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-09-25 11:29:05.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:29:05.831] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-09-25 11:29:05.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:29:05.867] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-09-25 11:29:05.941] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-25 11:29:05.941] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-09-25 11:29:05.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"activationEvent":"workspaceContains:package.json"}
+[2019-09-25 11:29:05.946] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/npm/dist/main
+[2019-09-25 11:29:07.080] [exthost] [info] eager extensions activated
+[2019-09-25 11:29:17.758] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-09-25 11:29:17.758] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-09-25 11:30:52.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-09-25 11:30:52.717] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-09-25 11:33:19.967] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-09-25 11:33:19.967] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-09-25 11:41:44.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2019-09-25 11:41:44.576] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-09-25 12:50:22.811] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-25 12:50:22.811] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-09-25 12:50:22.941] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-09-25 12:50:22.941] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-09-25 17:44:47.679] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-09-25 17:44:47.680] [exthost] [error] Error: <semantic> TypeScript Server Error (3.5.2)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getCommentRange (tsserver.js:64119:29)
+    at emitNodeList (tsserver.js:87243:51)
+    at emitList (tsserver.js:87122:13)
+    at Object.writeList (tsserver.js:84565:13)
+    at tsserver.js:108005:29
+    at Object.mapToDisplayParts (tsserver.js:97541:13)
+    at itemInfoForParameters (tsserver.js:108002:41)
+    at getSignatureHelpItem (tsserver.js:107968:95)
+    at tsserver.js:107941:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:107941:36)
+    at tsserver.js:107533:23
+    at Object.runWithCancellationToken (tsserver.js:31649:28)
+    at Object.getSignatureHelpItems (tsserver.js:107531:32)
+    at Object.getSignatureHelpItems (tsserver.js:122260:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:131218:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:130118:61)
+    at tsserver.js:131665:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:131656:28)
+    at IOSession.Session.executeCommand (tsserver.js:131665:33)
+    at IOSession.Session.onMessage (tsserver.js:131687:35)
+    at Interface.<anonymous> (tsserver.js:132978:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:63463)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:56618)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:55516)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:54992)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:207)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61683)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61331)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-09-25 17:44:56.165] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-09-25 17:44:56.165] [exthost] [error] Error: <semantic> TypeScript Server Error (3.5.2)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getCommentRange (tsserver.js:64119:29)
+    at emitNodeList (tsserver.js:87243:51)
+    at emitList (tsserver.js:87122:13)
+    at Object.writeList (tsserver.js:84565:13)
+    at tsserver.js:108005:29
+    at Object.mapToDisplayParts (tsserver.js:97541:13)
+    at itemInfoForParameters (tsserver.js:108002:41)
+    at getSignatureHelpItem (tsserver.js:107968:95)
+    at tsserver.js:107941:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:107941:36)
+    at tsserver.js:107533:23
+    at Object.runWithCancellationToken (tsserver.js:31649:28)
+    at Object.getSignatureHelpItems (tsserver.js:107531:32)
+    at Object.getSignatureHelpItems (tsserver.js:122260:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:131218:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:130118:61)
+    at tsserver.js:131665:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:131656:28)
+    at IOSession.Session.executeCommand (tsserver.js:131665:33)
+    at IOSession.Session.onMessage (tsserver.js:131687:35)
+    at Interface.<anonymous> (tsserver.js:132978:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:63463)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:56618)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:55516)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:54992)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:207)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61683)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61331)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-09-25 18:13:34.096] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-09-25 18:13:34.096] [exthost] [error] Error: <semantic> TypeScript Server Error (3.5.2)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getCommentRange (tsserver.js:64119:29)
+    at emitNodeList (tsserver.js:87243:51)
+    at emitList (tsserver.js:87122:13)
+    at Object.writeList (tsserver.js:84565:13)
+    at tsserver.js:108005:29
+    at Object.mapToDisplayParts (tsserver.js:97541:13)
+    at itemInfoForParameters (tsserver.js:108002:41)
+    at getSignatureHelpItem (tsserver.js:107968:95)
+    at tsserver.js:107941:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:107941:36)
+    at tsserver.js:107533:23
+    at Object.runWithCancellationToken (tsserver.js:31649:28)
+    at Object.getSignatureHelpItems (tsserver.js:107531:32)
+    at Object.getSignatureHelpItems (tsserver.js:122260:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:131218:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:130118:61)
+    at tsserver.js:131665:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:131656:28)
+    at IOSession.Session.executeCommand (tsserver.js:131665:33)
+    at IOSession.Session.onMessage (tsserver.js:131687:35)
+    at Interface.<anonymous> (tsserver.js:132978:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:63463)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:56618)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:55516)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:54992)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:207)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61683)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61331)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-09-25 18:13:41.928] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-09-25 18:13:41.928] [exthost] [error] Error: <semantic> TypeScript Server Error (3.5.2)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getCommentRange (tsserver.js:64119:29)
+    at emitNodeList (tsserver.js:87243:51)
+    at emitList (tsserver.js:87122:13)
+    at Object.writeList (tsserver.js:84565:13)
+    at tsserver.js:108005:29
+    at Object.mapToDisplayParts (tsserver.js:97541:13)
+    at itemInfoForParameters (tsserver.js:108002:41)
+    at getSignatureHelpItem (tsserver.js:107968:95)
+    at tsserver.js:107941:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:107941:36)
+    at tsserver.js:107533:23
+    at Object.runWithCancellationToken (tsserver.js:31649:28)
+    at Object.getSignatureHelpItems (tsserver.js:107531:32)
+    at Object.getSignatureHelpItems (tsserver.js:122260:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:131218:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:130118:61)
+    at tsserver.js:131665:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:131656:28)
+    at IOSession.Session.executeCommand (tsserver.js:131665:33)
+    at IOSession.Session.onMessage (tsserver.js:131687:35)
+    at Interface.<anonymous> (tsserver.js:132978:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:63463)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:56618)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:55516)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:54992)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:207)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61683)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:53:61331)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
